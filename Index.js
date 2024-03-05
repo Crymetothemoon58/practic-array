@@ -9,3 +9,7 @@ console.log(numeros);
 
 var elementosVariados = [1, "Hola", true, 2, { nombre: "Objeto" }];
 console.log(elementosVariados);
+
+var miArray = new Array(1, "dos", 3.14, false);
+
+console.log(miArray);
