@@ -18,3 +18,9 @@ console.log(miArray);
 var secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
 
 console.log(secuenciaNumerica);
+
+
+var cadenaDeTexto = "Hola, cómo, estás";
+var arrayDePalabras = cadenaDeTexto.split(", ");
+
+console.log(arrayDePalabras);
