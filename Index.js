@@ -114,3 +114,9 @@ let newArray = myArray.slice(0, 2).concat(myArray.slice(3));
 console.log(newArray);
 console.log(myArray);
 
+
+let myArray = [3, 4, 5];
+
+myArray.unshift(...[1, 2]);
+
+console.log(myArray); 
