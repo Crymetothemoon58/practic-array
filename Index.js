@@ -32,3 +32,9 @@ var array2 = ["a", "b", "c"];
 var arrayCombinado = [...array1, ...array2];
 
 console.log(arrayCombinado);
+
+
+var arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
+var arraySinDuplicados = [...new Set(arrayConDuplicados)];
+
+console.log(arraySinDuplicados);
