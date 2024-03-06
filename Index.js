@@ -96,3 +96,11 @@ let subArray = myArray.slice(1, 4);
 
 console.log(subArray); 
 console.log(myArray); 
+
+
+
+let myArray = [1, 2, 3, 4, 5];
+
+let myString = myArray.join(",");
+
+console.log(myString);
