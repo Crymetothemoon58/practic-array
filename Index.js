@@ -63,7 +63,7 @@ function generarArray(longitud) {
 
 
   const miPez = ["angel", "payaso", "nemo", "globo"];
-  const cont  = myFish.pop();
+  const cont  = miPez.pop();
   console.log(miPez);
   console.log(cont);
   
