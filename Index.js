@@ -38,3 +38,17 @@ var arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 var arraySinDuplicados = [...new Set(arrayConDuplicados)];
 
 console.log(arraySinDuplicados);
+
+function generarArray(longitud) {
+    var nuevoArray = [];
+  
+    for (var i = 1; i <= longitud; i++) {
+      nuevoArray.push(i * 2); // En este ejemplo, se generan números pares
+    }
+  
+    return nuevoArray;
+  }
+  
+  var arrayGenerado = generarArray(5);
+  console.log(arrayGenerado);
+  
