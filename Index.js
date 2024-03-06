@@ -47,8 +47,16 @@ function generarArray(longitud) {
     }
   
     return nuevoArray;
-  }
+}
   
   var arrayGenerado = generarArray(5);
   console.log(arrayGenerado);
+  
+
+
+
+  var nombres = ["Juan", "María", "Pedro", "Ana", "Carlos"];
+  var longitudNombres = nombres.length;
+  
+  console.log("La longitud del array de nombres es: " + longitudNombres);
   
