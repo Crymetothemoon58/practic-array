@@ -106,11 +106,5 @@ let myString = myArray.join(",");
 console.log(myString);
 
 
-let myArray = [1, 2, 3, 4, 5];
 
 
-let newArray = myArray.slice(0, 2).concat(myArray.slice(3));
-
-console.log(newArray);
-console.log(myArray);
- 
