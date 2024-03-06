@@ -67,3 +67,16 @@ function generarArray(longitud) {
   console.log(miPez);
   console.log(cont);
   
+ 
+ 
+ 
+ 
+ 
+  let myArray = [3, 4, 5];
+
+  
+  myArray.unshift(1, 2);
+  
+  console.log(myArray);
+  
+  
