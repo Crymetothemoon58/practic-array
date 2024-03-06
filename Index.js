@@ -60,3 +60,10 @@ function generarArray(longitud) {
   
   console.log("La longitud del array de nombres es: " + longitudNombres);
   
+
+
+  const miPez = ["angel", "payaso", "nemo", "globo"];
+  const cont  = myFish.pop();
+  console.log(miPez);
+  console.log(cont);
+  
