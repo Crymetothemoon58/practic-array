@@ -88,3 +88,11 @@ function generarArray(longitud) {
   console.log(primerElemento); 
   console.log(myArray); 
   
+
+  let myArray = [1, 2, 3, 4, 5];
+
+
+let subArray = myArray.slice(1, 4);
+
+console.log(subArray); 
+console.log(myArray); 
