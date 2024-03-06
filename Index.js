@@ -24,3 +24,11 @@ var cadenaDeTexto = "Hola, cómo, estás";
 var arrayDePalabras = cadenaDeTexto.split(", ");
 
 console.log(arrayDePalabras);
+
+
+var array1 = [1, 2, 3];
+var array2 = ["a", "b", "c"];
+
+var arrayCombinado = [...array1, ...array2];
+
+console.log(arrayCombinado);
